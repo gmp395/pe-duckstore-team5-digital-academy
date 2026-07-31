@@ -190,3 +190,4 @@ Proyecto desarrollado en equipo durante el Bootcamp de Desarrollo Web Full Stack
 - Nerea Sola
 - Charles Baltazar
 - Daniel Muntyanu
+  
