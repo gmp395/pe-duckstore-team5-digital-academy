@@ -1,12 +1,12 @@
 # DuckStore
 
-DuckStore es una tienda online ficticia desarrollada como primer proyecto colaborativo durante las primeras semanas del bootcamp de Desarrollo Web Full Stack de Factoría F5.
+DuckStore es una tienda online ficticia desarrollada como primer proyecto colaborativo durante las primeras semanas del Bootcamp de Desarrollo Web Full Stack de Factoría F5.
 
 El objetivo principal del proyecto fue aplicar los fundamentos de HTML, CSS y JavaScript, aprender el flujo de trabajo con Git y GitHub y desarrollar una aplicación web en equipo.
 
-**Repositorio:** *(Pendiente de publicación)*
+**Repositorio:** https://github.com/gmp395/duckstore-team5-digital-academy
 
-**Demo:** *(Pendiente de publicación)*
+**Demo:** https://gmp395.github.io/duckstore-team5-digital-academy/
 
 ---
 
@@ -20,7 +20,6 @@ El objetivo principal del proyecto fue aplicar los fundamentos de HTML, CSS y Ja
 - [Instalación](#instalación)
 - [Uso](#uso)
 - [Vista de la aplicación](#vista-de-la-aplicación)
-- [Documentación](#documentación)
 - [Aprendizajes](#aprendizajes)
 - [Mejoras futuras](#mejoras-futuras)
 - [Autoría](#autoría)
@@ -29,7 +28,7 @@ El objetivo principal del proyecto fue aplicar los fundamentos de HTML, CSS y Ja
 
 ## Descripción
 
-DuckStore es una tienda online ficticia de patitos de colección desarrollada como primer proyecto colaborativo del bootcamp de Desarrollo Web Full Stack de Factoría F5.
+DuckStore es una tienda online ficticia de patitos de colección desarrollada como primer proyecto colaborativo del Bootcamp de Desarrollo Web Full Stack de Factoría F5.
 
 La aplicación permite explorar un catálogo de productos, consultar el detalle de cada artículo, gestionar un carrito de compra y completar un proceso de compra simulado.
 
@@ -158,7 +157,6 @@ cd duckstore-team5-digital-academy
 
 ---
 
-
 ## Aprendizajes
 
 Este proyecto permitió adquirir experiencia en:
@@ -184,7 +182,7 @@ Este proyecto permitió adquirir experiencia en:
 
 ## Autoría
 
-Proyecto desarrollado en equipo durante el bootcamp de Desarrollo Web Full Stack de Factoría F5.
+Proyecto desarrollado en equipo durante el Bootcamp de Desarrollo Web Full Stack de Factoría F5.
 
 **Integrantes del equipo**
 
