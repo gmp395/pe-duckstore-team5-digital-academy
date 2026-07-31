@@ -1,69 +1,194 @@
-# DUCK STORE
-
-[ENLACE A GITHUB PAGES](https://factoriaf5-asturias.github.io/project-p5-digital-academy-team5-duckstore/)
-
-<br><br>
-
 # DuckStore
 
-DuckStore es una página web de comercio electrónico centrada en la venta de patitos de goma personalizados. El proyecto permite visualizar productos, consultar detalles básicos y gestionar un carrito de compra de forma sencilla.
+DuckStore es una tienda online ficticia desarrollada como primer proyecto colaborativo durante las primeras semanas del bootcamp de Desarrollo Web Full Stack de Factoría F5.
 
-## Descripción del proyecto
+El objetivo principal del proyecto fue aplicar los fundamentos de HTML, CSS y JavaScript, aprender el flujo de trabajo con Git y GitHub y desarrollar una aplicación web en equipo.
 
-La web simula una tienda online con estética sencilla y visual, donde los productos principales son distintos modelos de patitos de goma, como patitos clásicos, chef, rey o astronauta.
+**Repositorio:** *(Pendiente de publicación)*
 
-El objetivo del proyecto es practicar la creación de una página web funcional, organizada y orientada a la experiencia de usuario, incorporando navegación, catálogo de productos y carrito.
+**Demo:** *(Pendiente de publicación)*
 
-## Funcionalidades principales
+---
 
-- Visualización de productos en formato catálogo.
-- Tarjetas de producto con imagen, nombre, descripción breve, precio y botón de acceso.
-- Página o sección de carrito de compra.
-- Navegación entre secciones principales: inicio, catálogo y contacto.
-- Diseño visual basado en colores suaves y estructura clara.
-- Presentación de productos destacados.
+## Índice
 
-## Estructura de la web
+- [Descripción](#descripción)
+- [Objetivos](#objetivos)
+- [Tecnologías utilizadas](#tecnologías-utilizadas)
+- [Funcionalidades](#funcionalidades)
+- [Estructura del proyecto](#estructura-del-proyecto)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Vista de la aplicación](#vista-de-la-aplicación)
+- [Documentación](#documentación)
+- [Aprendizajes](#aprendizajes)
+- [Mejoras futuras](#mejoras-futuras)
+- [Autoría](#autoría)
 
-La página cuenta con varias zonas principales:
+---
 
-### Inicio
+## Descripción
 
-Página principal donde se presenta la tienda y algunos productos destacados.
+DuckStore es una tienda online ficticia de patitos de colección desarrollada como primer proyecto colaborativo del bootcamp de Desarrollo Web Full Stack de Factoría F5.
 
-### Catálogo
+La aplicación permite explorar un catálogo de productos, consultar el detalle de cada artículo, gestionar un carrito de compra y completar un proceso de compra simulado.
 
-Sección donde se muestran los productos disponibles mediante tarjetas. Cada producto incluye:
+Este proyecto supuso una primera toma de contacto con el desarrollo de aplicaciones web utilizando HTML, CSS y JavaScript, así como con el trabajo colaborativo mediante Git y GitHub.
 
-- Imagen del producto.
-- Nombre.
-- Descripción breve.
-- Precio.
-- Botón para ver más información.
+---
 
-### Carrito
+## Objetivos
 
-Sección destinada a mostrar los productos seleccionados por el usuario, incluyendo nombre, precio y cantidad.
+- Aplicar los fundamentos de HTML5, CSS3 y JavaScript.
+- Desarrollar una aplicación web multipágina.
+- Manipular el DOM mediante JavaScript.
+- Implementar un carrito de compra funcional.
+- Practicar el trabajo colaborativo utilizando Git y GitHub.
 
-### Contacto
-
-Apartado pensado para que el usuario pueda contactar con la tienda.
-
-## Productos incluidos
-
-Algunos de los productos visibles en la web son:
-
-- Patito de Goma Clásico.
-- Patito Chef.
-- Patito Rey.
-- Patito Astronauta.
-- Otros modelos personalizados de patitos de goma.
+---
 
 ## Tecnologías utilizadas
 
-El proyecto puede haberse desarrollado con tecnologías web básicas como:
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- LocalStorage
+- Git
+- GitHub
 
-- HTML5.
-- CSS3.
-- JavaScript.
+---
 
+## Funcionalidades
+
+- Página principal.
+- Catálogo de productos.
+- Vista de detalle de cada producto.
+- Carrito de compra.
+- Gestión de cantidades de los productos.
+- Persistencia del carrito mediante LocalStorage.
+- Simulación del proceso de compra.
+- Página de confirmación de compra.
+- Diseño responsive.
+
+---
+
+## Estructura del proyecto
+
+```text
+duckstore-team5-digital-academy/
+│
+├── assets/
+│   ├── db/
+│   ├── fonts/
+│   ├── icons/
+│   ├── images/
+│   └── js/
+│
+├── css/
+├── docs/
+├── pages/
+│
+├── .gitignore
+├── index.html
+└── README.md
+```
+
+---
+
+## Instalación
+
+1. Clonar el repositorio.
+
+```bash
+git clone https://github.com/gmp395/duckstore-team5-digital-academy.git
+```
+
+2. Acceder al directorio del proyecto.
+
+```bash
+cd duckstore-team5-digital-academy
+```
+
+3. Abrir `index.html` en el navegador o ejecutar el proyecto mediante **Live Server** desde Visual Studio Code.
+
+---
+
+## Uso
+
+1. Acceder a la página principal.
+2. Explorar el catálogo de productos.
+3. Consultar el detalle de un producto.
+4. Añadir productos al carrito.
+5. Gestionar las cantidades.
+6. Completar el proceso de compra.
+
+---
+
+## Vista de la aplicación
+
+### Página principal
+
+<p align="center">
+  <img src="assets/images/mockups/home1.png" width="700">
+</p>
+
+### Catálogo
+
+<p align="center">
+  <img src="assets/images/mockups/catalogo1.png" width="700">
+</p>
+
+### Detalle del producto
+
+<p align="center">
+  <img src="assets/images/mockups/detalle.png" width="700">
+</p>
+
+### Carrito de compra
+
+<p align="center">
+  <img src="assets/images/mockups/carritocompra.png" width="700">
+</p>
+
+### Compra realizada
+
+<p align="center">
+  <img src="assets/images/mockups/comprarealizada.png" width="700">
+</p>
+
+---
+
+
+## Aprendizajes
+
+Este proyecto permitió adquirir experiencia en:
+
+- Desarrollo de interfaces web utilizando HTML y CSS.
+- Manipulación dinámica del DOM mediante JavaScript.
+- Gestión del estado de una aplicación utilizando LocalStorage.
+- Organización de un proyecto frontend.
+- Trabajo colaborativo utilizando Git y GitHub.
+- Uso de ramas, commits, pull requests y resolución de conflictos durante el desarrollo.
+
+---
+
+## Mejoras futuras
+
+- Integración con una base de datos.
+- Sistema de autenticación de usuarios.
+- Buscador y filtrado de productos.
+- Pasarela de pago.
+- Panel de administración para la gestión del catálogo.
+
+---
+
+## Autoría
+
+Proyecto desarrollado en equipo durante el bootcamp de Desarrollo Web Full Stack de Factoría F5.
+
+**Integrantes del equipo**
+
+- Gema Miguel Pinillos
+- Nerea Sola
+- Charles Baltazar
+- Daniel Muntyanu

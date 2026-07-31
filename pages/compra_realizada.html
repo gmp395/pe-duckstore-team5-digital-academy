@@ -1,138 +1,183 @@
 <!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
 
-<html class="light" lang="es"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<link rel="stylesheet" href="../css/styles.css">
- <header>
-        <div class="header__container">
-            <!-- Logo -->
-            <a class="header__logo" href="#">
-                <img height=30 class="header__logo_icon" src="../assets/icons/duck_logo.png">
-                DuckStore
-            </a>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
 
-            <!-- Navigation -->
-            <nav class="header__navigation">
-                <ul class="navigation__list">
-                    <li><a class="navigation__link" href="../index.html">Inicio</a></li>
-                    <li><a class="navigation__link" href="./catalog.html">Catálogo</a></li>
-                    <li><a class="navigation__link" href="./contact.html">Contactar</a></li>
-                </ul>
-            </nav>
+    <title>Compra realizada | DuckStore</title>
 
-            <div class="header__hidden_object"></div> <!-- para hacer navegacion en medio de header -->
-        </div>
+    <link rel="stylesheet" href="../css/styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="header__container">
+        <a class="header__logo" href="../index.html">
+          <img
+            height="30"
+            class="header__logo_icon"
+            src="../assets/icons/duck_logo.png"
+            alt="Logo de DuckStore"
+          />
+
+          DuckStore
+        </a>
+
+        <nav class="header__navigation">
+          <ul class="navigation__list">
+            <li>
+              <a
+                class="navigation__link"
+                href="../index.html"
+              >
+                Inicio
+              </a>
+            </li>
+
+            <li>
+              <a
+                class="navigation__link"
+                href="./catalog.html"
+              >
+                Catálogo
+              </a>
+            </li>
+
+            <li>
+              <a
+                class="navigation__link"
+                href="./contact.html"
+              >
+                Contactar
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <a
+          class="header__cart"
+          href="./cart.html"
+          aria-label="Abrir carrito"
+        >
+          <span class="material-symbols-outlined">
+            shopping_cart
+          </span>
+
+          Carrito
+        </a>
+      </div>
     </header>
 
-
-     
-<style>
-        body { font-family: 'Plus Jakarta Sans', sans-serif; }
-        .material-symbols-outlined {
-          font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-        }
-    </style>
-<style>
-    body {
-      min-height: max(884px, 100dvh);
-    }
-  </style>
-  </head>
-<body class="bg-background text-on-background min-h-screen flex flex-col">
-<!-- TopAppBar Shell -->
-<header class="w-full top-0 sticky z-50 bg-surface shadow-sm">
-<div class="flex items-center justify-between px-margin-x-mobile md:px-margin-x-desktop h-16 w-full max-w-container-max mx-auto">
-<div class="flex items-center gap-4">
-<button class="active:scale-95 transition-transform duration-200 hover:opacity-80 transition-opacity">
-<span class="material-symbols-outlined text-primary text-headline-md">arrow_back</span>
-</button>
-<h1 class="font-display-lg text-display-lg-mobile font-extrabold text-primary">Duckstore</h1>
-</div>
-<div class="flex items-center">
-<button class="active:scale-95 transition-transform duration-200 hover:opacity-80 transition-opacity">
-<span class="material-symbols-outlined text-primary text-headline-md">shopping_bag</span>
-</button>
-</div>
-</div>
-</header>
-<!-- Main Content Canvas -->
-<main class="flex-grow flex flex-col items-center justify-center px-margin-x-mobile md:px-margin-x-desktop py-stack-lg max-w-container-max mx-auto w-full">
-<!-- Success Illustration Section -->
-<div class="relative mb-stack-md flex flex-col items-center">
-<!-- Asymmetric Glassmorphism Backdrop for the Icon -->
-<div class="absolute -z-10 w-48 h-48 bg-secondary-container opacity-20 rounded-full blur-3xl"></div>
-<div class="w-32 h-32 md:w-40 md:h-40 bg-white rounded-full flex items-center justify-center shadow-[0_20px_20px_0_rgba(13,74,93,0.06)] border-4 border-secondary-container">
-<span class="material-symbols-outlined text-primary text-7xl md:text-8xl" style="font-variation-settings: 'FILL' 1;">check_circle</span>
-</div>
-<!-- Optional Aesthetic Duck Element -->
-<div class="mt-stack-sm flex items-center justify-center opacity-40">
-<span class="material-symbols-outlined text-primary text-headline-md">capture</span>
-</div>
-</div>
-<!-- Success Message -->
-<div class="text-center max-w-lg">
-<h2 class="font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-stack-sm leading-tight">
-                ¡Compra realizada con éxito!
-            </h2>
-<p class="font-body-lg text-on-surface-variant mb-stack-lg">
-                Gracias por confiar en Duckstore. Tu pedido ya está en camino.
-                <span class="block mt-2 font-label-bold text-primary opacity-70">Pedido #DK-829341</span>
-</p>
-</div>
-<!-- Primary Action -->
-<div class="w-full max-w-sm px-4">
-<button class="w-full bg-primary text-on-primary py-4 px-8 rounded-xl font-label-bold text-label-bold active:scale-95 transition-all duration-200 hover:shadow-lg shadow-primary/20 flex items-center justify-center gap-2">
-                Volver al inicio
-                <span class="material-symbols-outlined">home</span>
-</button>
-</div>
-<!-- Decorative Aesthetic Layout Element (Asymmetric Detail) -->
-<div class="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 opacity-5 pointer-events-none">
-<span class="material-symbols-outlined text-[240px] text-primary">shopping_basket</span>
-</div>
-</main>
-<!-- BottomNavBar Shell (Suppressed for Checkout Success according to UX Goal, but requested to keep if consistent. Here we keep it for return access.) -->
-<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center py-2 px-4 bg-surface shadow-[0_-4px_20px_0_rgba(13,74,93,0.06)] md:hidden">
-<a class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-1 hover:text-primary active:scale-110 transition-transform duration-200" href="#">
-<span class="material-symbols-outlined">home</span>
-<span class="font-label-bold text-[10px]">Home</span>
-</a>
-<a class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-1 hover:text-primary active:scale-110 transition-transform duration-200" href="#">
-<span class="material-symbols-outlined">search</span>
-<span class="font-label-bold text-[10px]">Explorar</span>
-</a>
-<a class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-1 hover:text-primary active:scale-110 transition-transform duration-200" href="#">
-<span class="material-symbols-outlined">shopping_cart</span>
-<span class="font-label-bold text-[10px]">Carrinho</span>
-</a>
-<a class="flex flex-col items-center justify-center text-on-surface-variant px-4 py-1 hover:text-primary active:scale-110 transition-transform duration-200" href="#">
-<span class="material-symbols-outlined">person</span>
-<span class="font-label-bold text-[10px]">Perfil</span>
-</a>
-</nav>
-</body>
-
-<footer>
-        <div class="footer__container">
-            <!-- Footer Content -->
-            <div class="footer__content">
-                <!-- Logo -->
-                <a class="footer__logo" href="#">
-                    <img height=30 class="footer__logo_icon" src="./assets/icons/duck_logo.png">
-                    Duck Store
-                </a>
-                <p class="footer__description">Tu tienda para todo lo relacionado con los patos.</p>
-                <p class="footer__copyright">&copy; 2026 Duck Store. Todos los derechos reservados.</p>
-            </div>
-         
-            <div></div>
-            <!-- Socials -->
-            <div class="footer__socials">
-                <a class="footer__social_icon" href="#">Facebook</a>
-                <a class="footer__social_icon" href="#">Instagram</a>
-            </div>
+    <main class="purchase-success">
+      <section class="purchase-success__card">
+        <div class="purchase-success__decoration">
+          <span class="material-symbols-outlined">
+            celebration
+          </span>
         </div>
+
+        <div class="purchase-success__icon">
+          <span class="material-symbols-outlined">
+            check_circle
+          </span>
+        </div>
+
+        <p class="purchase-success__label">
+          Pedido confirmado
+        </p>
+
+        <h1 class="purchase-success__title">
+          ¡Compra realizada con éxito!
+        </h1>
+
+        <p class="purchase-success__description">
+          Gracias por confiar en DuckStore. Hemos recibido tu
+          pedido correctamente y ya estamos preparando tus
+          patitos.
+        </p>
+
+        <div class="purchase-success__order">
+          <span class="material-symbols-outlined">
+            package_2
+          </span>
+
+          <div>
+            <span class="purchase-success__order-label">
+              Número de pedido
+            </span>
+
+            <strong>#DK-829341</strong>
+          </div>
+        </div>
+
+        <div class="purchase-success__actions">
+          <a
+            class="purchase-success__button purchase-success__button--primary"
+            href="../index.html"
+          >
+            <span class="material-symbols-outlined">
+              home
+            </span>
+
+            Volver al inicio
+          </a>
+
+          <a
+            class="purchase-success__button purchase-success__button--secondary"
+            href="./catalog.html"
+          >
+            Seguir comprando
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer__container">
+        <div class="footer__content">
+          <a class="footer__logo" href="../index.html">
+            <img
+              height="30"
+              class="footer__logo_icon"
+              src="../assets/icons/duck_logo.png"
+              alt="Logo de DuckStore"
+            />
+
+            DuckStore
+          </a>
+
+          <p class="footer__description">
+            Tu tienda para todo lo relacionado con los patos.
+          </p>
+
+          <p class="footer__copyright">
+            &copy; 2026 DuckStore. Todos los derechos reservados.
+          </p>
+        </div>
+
+        <div class="footer__socials">
+          <a class="footer__social_icon" href="#">
+            Facebook
+          </a>
+
+          <a class="footer__social_icon" href="#">
+            Instagram
+          </a>
+        </div>
+      </div>
     </footer>
 
+    <script>
+      localStorage.removeItem("cart");
+    </script>
+  </body>
 </html>
