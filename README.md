@@ -4,9 +4,9 @@ DuckStore es una tienda online ficticia desarrollada como primer proyecto colabo
 
 El objetivo principal del proyecto fue aplicar los fundamentos de HTML, CSS y JavaScript, aprender el flujo de trabajo con Git y GitHub y desarrollar una aplicación web en equipo.
 
-**Repositorio:** https://github.com/gmp395/pe-pe-duckstore-team5-digital-academy
+**Repositorio:** https://github.com/gmp395/pe-duckstore-team5-digital-academy
 
-**Demo:** https://gmp395.github.io/pe-pe-duckstore-team5-digital-academy/
+**Demo:** https://gmp395.github.io/pe-duckstore-team5-digital-academy/
 
 ---
 
