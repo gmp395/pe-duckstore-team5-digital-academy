@@ -4,9 +4,9 @@ DuckStore es una tienda online ficticia desarrollada como primer proyecto colabo
 
 El objetivo principal del proyecto fue aplicar los fundamentos de HTML, CSS y JavaScript, aprender el flujo de trabajo con Git y GitHub y desarrollar una aplicación web en equipo.
 
-**Repositorio:** https://github.com/gmp395/duckstore-team5-digital-academy
+**Repositorio:** https://github.com/gmp395/pe-pe-duckstore-team5-digital-academy
 
-**Demo:** https://gmp395.github.io/duckstore-team5-digital-academy/
+**Demo:** https://gmp395.github.io/pe-pe-duckstore-team5-digital-academy/
 
 ---
 
@@ -74,7 +74,7 @@ Este proyecto supuso una primera toma de contacto con el desarrollo de aplicacio
 ## Estructura del proyecto
 
 ```text
-duckstore-team5-digital-academy/
+pe-duckstore-team5-digital-academy/
 │
 ├── assets/
 │   ├── db/
@@ -99,13 +99,13 @@ duckstore-team5-digital-academy/
 1. Clonar el repositorio.
 
 ```bash
-git clone https://github.com/gmp395/duckstore-team5-digital-academy.git
+git clone https://github.com/gmp395/pe-duckstore-team5-digital-academy.git
 ```
 
 2. Acceder al directorio del proyecto.
 
 ```bash
-cd duckstore-team5-digital-academy
+cd pe-duckstore-team5-digital-academy
 ```
 
 3. Abrir `index.html` en el navegador o ejecutar el proyecto mediante **Live Server** desde Visual Studio Code.
@@ -186,7 +186,7 @@ Proyecto desarrollado en equipo durante el Bootcamp de Desarrollo Web Full Stack
 
 **Integrantes del equipo**
 
-- Gema Miguel Pinillos
+- Gema Miguel 
 - Nerea Sola
 - Charles Baltazar
 - Daniel Muntyanu
