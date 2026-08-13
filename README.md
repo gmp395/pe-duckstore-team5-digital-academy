@@ -186,7 +186,7 @@ Proyecto desarrollado en equipo durante el Bootcamp de Desarrollo Web Full Stack
 
 **Integrantes del equipo**
 
-- Gema Miguel 
+- **Gema Miguel** — [GitHub](https://github.com/gmp395) 
 - Nerea Sola
 - Charles Baltazar
 - Daniel Muntyanu
